@@ -1,0 +1,4 @@
+*.swp
+config/fish/fish_history
+config/fish/fishd.*
+config/fish/functions/testbox_aws.fish
