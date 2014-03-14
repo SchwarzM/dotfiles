@@ -4,6 +4,6 @@ function fish_prompt
   set_color normal
   echo -n -s ' '
   echo -n -s (parse-git-branch)
-  echo -n -s (parse-rvm-prompt) 
+  echo -n -s (parse-ruby-prompt) 
   echo -n -e -s '\n' '> '
 end
