@@ -1,0 +1,9 @@
+---
+:sources:
+- http://moo-repo.wdf.sap.corp:8080/geminabox/
+- http://moo-repo.wdf.sap.corp:8080/rubygemsorg/
+:verbose: true
+http_proxy: :no_proxy
+:backtrace: false
+:benchmark: false
+gem: --no-http-proxy --no-ri --no-rdoc
