@@ -3,3 +3,4 @@ config/fish/fish_history
 config/fish/fishd.*
 config/fish/functions/testbox_aws.fish
 config/fish/functions/*_aws.fish
+config/beets/library.db
