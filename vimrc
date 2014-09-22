@@ -35,3 +35,5 @@ map <D-S-Down> <C-W>j
 map <D-S-Up> <C-W>k
 map <D-S-Left> <C-W>h
 map <D-S-Right> <C-W>l
+
+map <F2> :NERDTreeToggle<CR>
