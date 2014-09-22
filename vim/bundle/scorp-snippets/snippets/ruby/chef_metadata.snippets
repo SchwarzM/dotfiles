@@ -1,0 +1,9 @@
+snippet meta
+	# encoding: UTF-8
+	name '${1:`system("basename \`pwd\`")`}'
+	maintainer '${2:sap.com}'
+	maintainer_email '${3:marian.schwarz@sap.com}'
+	description '${4:description}'
+	long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+	version '0.0.1'
+
