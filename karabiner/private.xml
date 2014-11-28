@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>ITERM</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  <item>
+    <name>itermfkeys</name>
+    <identifier>itermfkeys</identifier>
+    <only>ITERM</only>
+    <autogen>__KeyToKey__ KeyCode::BRIGHTNESS_DOWN, KeyCode::F1</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRIGHTNESS_UP, KeyCode::F2</autogen>
+    <autogen>__KeyToKey__ KeyCode::EXPOSE_ALL, KeyCode::F3</autogen>
+    <autogen>__KeyToKey__ KeyCode::LAUNCHPAD, KeyCode::F4</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::KEYBOARDLIGHT_LOW, KeyCode::F5</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::KEYBOARDLIGHT_HIGH, KeyCode::F6</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::MUSIC_PREV, KeyCode::F7</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::MUSIC_PLAY, KeyCode::F8</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::MUSIC_NEXT, KeyCode::F9</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::VOLUME_MUTE, KeyCode::F10</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::VOLUME_DOWN, KeyCode::F11</autogen>
+    <autogen>__ConsumerToKey__ ConsumerKeyCode::VOLUME_UP, KeyCode::F12</autogen>
+    <autogen>__KeyToKey__ KeyCode::F1, KeyCode::BRIGHTNESS_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::F2, KeyCode::BRIGHTNESS_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::F3, KeyCode::EXPOSE_ALL</autogen>
+    <autogen>__KeyToKey__ KeyCode::F4, KeyCode::LAUNCHPAD</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F5, ConsumerKeyCode::KEYBOARDLIGHT_LOW</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F6, ConsumerKeyCode::KEYBOARDLIGHT_HIGH</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F7, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F8, ConsumerKeyCode::MUSIC_PLAY</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F9, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F10, ConsumerKeyCode::VOLUME_MUTE</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F11, ConsumerKeyCode::VOLUME_DOWN</autogen>
+    <autogen>__ConsumerToKey__ KeyCode::F12, ConsumerKeyCode::VOLUME_UP</autogen>
+  </item>
+</root>
