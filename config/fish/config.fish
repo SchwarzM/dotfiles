@@ -13,14 +13,14 @@ set -g -x PATH $GOPATH/bin $PATH
 set EDITOR /usr/local/bin/vim
 
 # load autojump
-. /usr/local/Cellar/autojump/HEAD/etc/autojump.fish
+. /usr/local/Cellar/autojump/21.7.1/etc/autojump.fish
 
 # start rbenv so it gets loaded
-#. (rbenv init -|psub)
+. (rbenv init -|psub)
 
-set -g -x PATH $HOME/.rbenv/bin $PATH
-set -g -x PATH $HOME/.rbenv/shims $PATH
-rbenv rehash >/dev/null ^&1
+#set -g -x PATH $HOME/.rbenv/bin $PATH
+#set -g -x PATH $HOME/.rbenv/shims $PATH
+#rbenv rehash >/dev/null ^&1
 
 # include local bundles into path
 set -g -x PATH .bundle/bin $PATH
